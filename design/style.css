@@ -1,0 +1,42 @@
+/* font-family: "DM Serif Text", serif;
+font-family: "Playfair Display", serif; */
+
+:root {
+    --primary-color:#698474;
+    --secondary-color:#f0ab8d;
+    --tertiary-color:#f6e4ad;
+    --heading-font-family: "DM Serif Text", serif;
+    --default-font-family: "Playfair Display", serif;
+}
+body {
+    font-family: var(--default-font-family);
+}
+.btn-branding {
+    background: var(--secondary-color);
+    color: #fffdf6;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 15px 25px;
+}
+h1 {
+    font-size: 96px;
+    line-height: 1.5;
+}
+h2,h3 {
+    color: var(--secondary-color);
+    font-size: 36px;
+    font-family: var(--default-font-family);
+    font-weight: 500;
+    font-style: italic
+}
+p {
+    font-size: 35px;
+}
+.btn-book {
+background: var(--secondary-color);
+color: #fffdf6;
+border-radius: 4px;
+line-height: 30px;
+padding: 15px 25px;
+text-align: center;
+}
